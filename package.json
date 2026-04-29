@@ -1,0 +1,21 @@
+{
+  "name": "deckwp-docs",
+  "version": "0.1.0",
+  "description": "Public documentation for DeckWP — getting started, API reference, guides, comparisons.",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://docs.deckwp.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultrapackadm/deckwp-docs.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.0"
+  }
+}
